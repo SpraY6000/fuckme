@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Calculator XD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p class="header-text">Calculator</p>
+        </div>
+        <div class="first-row">
+            <p class="first-text">Enter first number:</p>
+            <input type="number" id="first-input" placeholder="Number"><br>
+        </div>
+        <div class="second-row">
+            <p class="operator-text">Choose an operator:</p>
+            <select id="operator-input" class="selection">
+                <option>Addition(+)</option>
+                <option>Subtraction(-)</option>
+                <option>Multiplication(*)</option>
+                <option>Division(/)</option>
+            </select>
+        </div>
+        <div class="third-row">
+            <p class="second-text">Enter second number</p>
+            <input type="number" id="second-input" placeholder="Number"><br>
+        </div>
+        <div class="result-div">
+            <button type="submit" id="calculate-button">Calculate</button>
+            <p class="result-text" id="result-text">Result:</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
